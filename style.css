@@ -21,6 +21,12 @@
   text-decoration; none;
 }
 
+/*LINK BUTTONS*/
+a:link {
+  
+
+a:hover, a:active {
+
 /*CONTENT LAYOUT*/
 /*3 EQUAL COMUMNS*/
 .column {
