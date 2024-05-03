@@ -21,11 +21,26 @@
   text-decoration; none;
 }
 
-/*3 COLUMNS*/
-.div {
+/*CONTENT LAYOUT*/
+/*3 EQUAL COMUMNS*/
+.column {
   float: left;
-  width: 33%;
-  display: inline-block;
+  width: 33.33%;
+}
+**/
+
+/*CLEAR FLOATS AFTER THE COLUMNS*/
+.row:after {
+  content: "TYPE SHIT HERE";
+  display: table;
+  clear: both;
+}
+
+/*RESPONSIVE LAYOUT*/
+@media screen and (max-width: 600px) {
+  .column {
+    width:100%;
+  }
 }
 
 /*LINKS - CHANGE COLOR ON HOVER*/
@@ -45,6 +60,14 @@ li a {
 
 
 
+/*3 COLUMNS*/
+/**
+.column {
+  float: left;
+  width: 33%;
+  display: inline-block;
+}
+**/
 
 /**
 .grid container {
@@ -64,32 +87,3 @@ li a {
   float: left;
 }
 **/
-
-/*CONTENT LAYOUT*/
-/*3 EQUAL COMUMNS*/
-/**
-.column {
-  float: left;
-  width: 33.33%;
-}
-**/
-
-/*CLEAR FLOATS AFTER THE COLUMNS*/
-/**
-.row:after {
-  content: "TYPE SHIT HERE";
-  display: table;
-  clear: both;
-}
-**/
-/*RESPONSIVE LAYOUT*/
-/**
-@media screen and (max-width: 600px) {
-  .column {
-    width:100%;
-  }
-}
-**/
-
-
-
