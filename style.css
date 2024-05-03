@@ -22,33 +22,6 @@
 }
 
 /*LINK BUTTONS*/
-a:link {
-  
-
-a:hover, a:active {
-
-/*CONTENT LAYOUT*/
-/*3 EQUAL COMUMNS*/
-.column {
-  float: left;
-  width: 33.33%;
-}
-**/
-
-/*CLEAR FLOATS AFTER THE COLUMNS*/
-.row:after {
-  content: "TYPE SHIT HERE";
-  display: table;
-  clear: both;
-}
-
-/*RESPONSIVE LAYOUT*/
-@media screen and (max-width: 600px) {
-  .column {
-    width:100%;
-  }
-}
-
 /*LINKS - CHANGE COLOR ON HOVER*/
 .topnav a:hover {
   background-color: #ddd;
@@ -61,19 +34,37 @@ li a {
   width: 60px;
 }
 
-
-
-
-
-
 /*3 COLUMNS*/
-/**
+/*
 .column {
   float: left;
   width: 33%;
   display: inline-block;
 }
+*/
+
+/*CONTENT LAYOUT*/
+/*3 EQUAL COMUMNS*/
+.column {
+  float: left;
+  width: 33.33%;
+}
 **/
+
+/*RESPONSIVE LAYOUT*/
+@media screen and (max-width: 600px) {
+  .column {
+    width:100%;
+  }
+}
+
+
+
+
+
+
+
+
 
 /**
 .grid container {
